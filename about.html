@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
 <head>
-   <title>Bootstrap Example</title>
+   <title>Trevor Strand - About</title>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,13 +26,10 @@
        // Load only the #site-nav element from navbar.html
        $("#nav-placeholder").load("navbar.html #site-nav");
    </script>
-  <div class="container">
+
     <!-- Card with information about me -->
     <div class="row justify-content-between">
-        <div class="col-md-6 ms-auto">
-                <img src="images/photoofme.jpg" class="img-fluid rounded-circle" alt="Me standing behind the roundhouse at the Colorado Railroad Museum behind RGS 20, DRGW 315, and DRGW 318">
-            </div>
-        <div class="card col-md-6 ms-auto">
+         <div class="card col-sm-5 ms-5 border-danger">
             <div class="card-body">
                 <h2 class="card-title text-start">I was born on January 11th, 2008 in Denver, Colorado.</h2>
                 <p class="card-text text-start">Since my early childhood, I have always been a thoughtful, creative, and kind individual. Where I found my career in IT started with my High School Computer Science teacher: Mr. Stroh, when taking his classes, I Immendiently was fawned about the world of computers. With the help of my teacher, I eventually decided around my Junior year to begin a career in IT with a degree in Computer Science.</p>
@@ -56,7 +53,12 @@
                 </ul>
             </div>
         </div>
+        <!-- images for card-->
+        <div class="col-3 me-auto ms-auto">
+            <img src="images/photoofme.jpg" class="img-fluid rounded-circle" alt="Me standing behind the roundhouse at the Colorado Railroad Museum behind RGS 20, DRGW 315, and DRGW 318">
+            <img src="images/up844.jpg" class="img-fluid rounded mt-3" alt="my favorite train, Union Pacific 844, at the Cheyenne Steam Shops in Cheyenne, Wyoming">
+            <img src="images/f14tomcat.jpg" class="img-fluid rounded mt-3" alt="my favorite plane, the F-14 Tomcat, at the Wings Over the Rockies Air and Space Museum in Denver, Colorado">
         </div>
-    </div>
+        </div>
 </body>
 </html>
